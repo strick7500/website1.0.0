@@ -1,0 +1,45 @@
+#wrapper{
+    background-color: #e6e6e6;
+}
+
+#header {
+    background-color: #cccccc;
+    top: 0;
+}
+
+#left {
+    background-color: #cccccc;
+    float: left;
+    position: sticky;
+    top: 0;
+    width: 231px;
+}
+
+h1 {
+    background-color: #b3b3b3;
+}
+
+nav {
+    background-color: #b3b3b3;
+}
+
+#right {
+    background-color: #cccccc;
+    float: right;
+    position: sticky;
+    left: 0;
+    width: 75%;
+}
+
+p {
+    background-color: #b3b3b3;
+}
+
+h2 {
+    background-color: #b3b3b3;
+}
+
+#footer {
+    background-color: #cccccc;
+    clear: both;
+}
