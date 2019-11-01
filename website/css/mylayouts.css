@@ -1,42 +1,96 @@
+
+
 #wrapper{
     background-color: #e6e6e6;
-}
+    border-style: dashed;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    margin: auto;
+    width: 98%;
+}   
 
 #header {
     background-color: #cccccc;
+    border-style: dashed;
+    border-color: red;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    /*
+    position: sticky;
     top: 0;
+    */
 }
 
 #left {
     background-color: #cccccc;
+    border-style: dashed;
+    border-color: blue;
+    border-right-width: 0px;
+    border-left-width: 0px;
     float: left;
+    
     position: sticky;
     top: 0;
-    width: 231px;
+    
+    width: 20%;
 }
 
 h1 {
     background-color: #b3b3b3;
+    border-style: dashed;
+    border-color: green;
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 nav {
     background-color: #b3b3b3;
+    border-style: dashed;
+    border-color: green;
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 #right {
     background-color: #cccccc;
+    border-style: dashed;
+    border-color: darkgoldenrod;
+    border-right-width: 0px;
+    border-left-width: 0px;
     float: right;
+    /*
     position: sticky;
     left: 0;
-    width: 75%;
+    */
+    width: 80%;
+}
+
+#subleft {
+    background-color: #cccccc;
+    float: left;
+    width: 50%;
+}
+
+#subright {
+    background-color: #cccccc;
+    float: right;
+    width: 50%;
 }
 
 p {
     background-color: #b3b3b3;
+    border-style: dashed;
+    border-color: green;
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 h2 {
     background-color: #b3b3b3;
+    border-style: dashed;
+    border-color: green;
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 #footer {
