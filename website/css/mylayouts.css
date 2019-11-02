@@ -14,6 +14,11 @@ h2 {
     border-left-width: 0px;
 }
 
+#footer {
+    background-color: #cccccc;
+    clear: both;
+}
+
 h1 {
     background-color: #b3b3b3;
     border-style: dashed;
@@ -28,15 +33,6 @@ nav {
     border-color: green;
     border-right-width: 0px;
     border-left-width: 0px;
-    margin: auto;
-}
-
-button {
-    padding: 8px;
-    width: 100%;
-    margin: auto;
-    display: block;
-    font-size: 24px;
 }
 
 #wrapper{
@@ -60,12 +56,6 @@ button {
     */
 }
 
-
-#footer {
-    background-color: #cccccc;
-    clear: both;
-}
-
 #left {
     background-color: #cccccc;
     border-style: dashed;
@@ -75,6 +65,7 @@ button {
     float: left;
     position: sticky;
     top: 0;
+    
     width: 20%;
 }
 
@@ -92,19 +83,7 @@ button {
     width: 80%;
 }
 
-/* The following 5 id's are used to subdivide sections as you see fit ***/
-
-#subleft {
-    background-color: #cccccc;
-    float: left;
-    width: 50%;
-}
-
-#subright {
-    background-color: #cccccc;
-    float: right;
-    width: 50%;
-}
+/* The following 5 id's are used to subdivide sections as you see fit */
 
 #subtop {
     border-style: dashed;
@@ -133,4 +112,35 @@ button {
     float: inline-end;
 }
 
-/* ***/
+#subleft {
+    background-color: #cccccc;
+    float: left;
+    width: 50%;
+}
+
+#subright {
+    background-color: #cccccc;
+    float: right;
+    width: 50%;
+}
+
+p {
+    background-color: #b3b3b3;
+    border-style: dashed;
+    border-color: green;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+h2 {
+    background-color: #b3b3b3;
+    border-style: dashed;
+    border-color: green;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+#footer {
+    background-color: #cccccc;
+    clear: both;
+}
