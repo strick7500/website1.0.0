@@ -83,6 +83,8 @@ nav {
     width: 80%;
 }
 
+/* The following 5 id's are used to subdivide sections as you see fit */
+
 #subtop {
     border-style: dashed;
     border-color:purple;
@@ -90,6 +92,15 @@ nav {
     border-right-width: 0px;
     border-left-width: 0px;
     float: inline-start;
+}
+
+#submiddle {
+    border-style: dashed;
+    border-color:purple;
+    background-color: #cccccc;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    position: relative;
 }
 
 #subbottom {
