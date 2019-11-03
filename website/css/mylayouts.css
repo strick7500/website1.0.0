@@ -1,5 +1,5 @@
 p {
-    background-color: #b3b3b3;
+    /* background-color: #b3b3b3; */
     border-style: dashed;
     border-color: green;
     border-right-width: 0px;
@@ -7,7 +7,7 @@ p {
 }
 
 h2 {
-    background-color: #b3b3b3;
+    /* background-color: #b3b3b3; */
     border-style: dashed;
     border-color: green;
     border-right-width: 0px;
@@ -15,7 +15,7 @@ h2 {
 }
 
 h1 {
-    background-color: #b3b3b3;
+    /* background-color: #b3b3b3; */
     border-style: dashed;
     border-color: green;
     border-right-width: 0px;
@@ -23,7 +23,7 @@ h1 {
 }
 
 nav {
-    background-color: #b3b3b3;
+    /* background-color: #b3b3b3; */
     border-style: dashed;
     border-color: green;
     border-right-width: 0px;
@@ -33,23 +33,32 @@ nav {
 
 button {
     padding: 8px;
-    width: 100%;
+    width: 98%;
     margin: auto;
     display: block;
     font-size: 24px;
+    color: black;
+    border-width: 0px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: white;
 }
 
-#wrapper{
-    background-color: #e6e6e6;
+button:hover {
+    background-color: #e7e7e7;
+}
+
+#wrapper {
+    /* background-color: #e6e6e6; */
     border-style: dashed;
     border-right-width: 0px;
     border-left-width: 0px;
     margin: auto;
     width: 98%;
-}   
+}
 
 #header {
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     border-style: dashed;
     border-color: red;
     border-right-width: 0px;
@@ -60,14 +69,13 @@ button {
     */
 }
 
-
 #footer {
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     clear: both;
 }
 
 #left {
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     border-style: dashed;
     border-color: blue;
     border-right-width: 0px;
@@ -79,7 +87,7 @@ button {
 }
 
 #right {
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     border-style: dashed;
     border-color: darkgoldenrod;
     border-right-width: 0px;
@@ -92,24 +100,25 @@ button {
     width: 80%;
 }
 
+
 /* The following 5 id's are used to subdivide sections as you see fit ***/
 
 #subleft {
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     float: left;
     width: 50%;
 }
 
 #subright {
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     float: right;
     width: 50%;
 }
 
 #subtop {
     border-style: dashed;
-    border-color:purple;
-    background-color: #cccccc;
+    border-color: purple;
+    /* background-color: #cccccc; */
     border-right-width: 0px;
     border-left-width: 0px;
     float: inline-start;
@@ -117,8 +126,8 @@ button {
 
 #submiddle {
     border-style: dashed;
-    border-color:purple;
-    background-color: #cccccc;
+    border-color: purple;
+    /* background-color: #cccccc; */
     border-right-width: 0px;
     border-left-width: 0px;
     position: relative;
@@ -126,11 +135,12 @@ button {
 
 #subbottom {
     border-style: dashed;
-    border-color:purple;
-    background-color: #cccccc;
+    border-color: purple;
+    /* background-color: #cccccc; */
     border-right-width: 0px;
     border-left-width: 0px;
     float: inline-end;
 }
+
 
 /* ***/
