@@ -1,77 +1,101 @@
 p {
-    background-color: #b3b3b3;
-    border-style: dashed;
+    /* background-color: #b3b3b3; */
+    /* border-style: dashed; */
     border-color: green;
     border-right-width: 0px;
     border-left-width: 0px;
 }
 
 h2 {
-    background-color: #b3b3b3;
-    border-style: dashed;
+    /* background-color: #b3b3b3; */
+    /* border-style: dashed; */
     border-color: green;
     border-right-width: 0px;
     border-left-width: 0px;
 }
 
-#footer {
-    background-color: #cccccc;
-    clear: both;
-}
-
 h1 {
-    background-color: #b3b3b3;
-    border-style: dashed;
+    /* background-color: #b3b3b3; */
+    /* border-style: dashed; */
     border-color: green;
     border-right-width: 0px;
     border-left-width: 0px;
 }
 
 nav {
-    background-color: #b3b3b3;
-    border-style: dashed;
+    /* background-color: #b3b3b3; */
+    /* border-style: dashed; */
     border-color: green;
     border-right-width: 0px;
     border-left-width: 0px;
+    margin: auto;
 }
 
-#wrapper{
-    background-color: #e6e6e6;
-    border-style: dashed;
+button {
+    padding: 12px;
+    width: 80%;
+    display: block;
+    font-size: 24px;
+    text-align: left;
+    color: black;
+    border-width: 0px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #e7e7e7;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#wrapper {
+    /* background-color: #e6e6e6; */
+    /* border-style: dashed; */
     border-right-width: 0px;
     border-left-width: 0px;
     margin: auto;
     width: 98%;
-}   
+}
 
 #header {
-    background-color: #cccccc;
-    border-style: dashed;
+    /* background-color: #cccccc; */
+    /* border-style: dashed; */
     border-color: red;
     border-right-width: 0px;
     border-left-width: 0px;
+    float: right;
+    width: 80%;
     /*
     position: sticky;
     top: 0;
     */
 }
 
+#footer {
+    /* background-color: #cccccc; */
+    clear: both;
+}
+
 #left {
-    background-color: #cccccc;
-    border-style: dashed;
+    /* background-color: #cccccc; */
+    /* border-style: dashed; */
     border-color: blue;
     border-right-width: 0px;
     border-left-width: 0px;
     float: left;
     position: sticky;
     top: 0;
-    
     width: 20%;
 }
 
 #right {
-    background-color: #cccccc;
-    border-style: dashed;
+    /* background-color: #cccccc; */
+    /* border-style: dashed; */
     border-color: darkgoldenrod;
     border-right-width: 0px;
     border-left-width: 0px;
@@ -83,64 +107,51 @@ nav {
     width: 80%;
 }
 
-/* The following 5 id's are used to subdivide sections as you see fit */
+
+/* The following 5 id's are used to subdivide sections as you see fit ***/
+
+#subleft {
+    /* background-color: #cccccc; */
+    float: left;
+    width: 50%;
+}
+
+#subright {
+    /* background-color: #cccccc; */
+    float: right;
+    width: 50%;
+}
 
 #subtop {
-    border-style: dashed;
-    border-color:purple;
-    background-color: #cccccc;
+    /* border-style: dashed; */
+    border-color: purple;
+    /* background-color: #cccccc; */
     border-right-width: 0px;
     border-left-width: 0px;
     float: inline-start;
 }
 
 #submiddle {
-    border-style: dashed;
-    border-color:purple;
-    background-color: #cccccc;
+    /* border-style: dashed; */
+    border-color: purple;
+    /* background-color: #cccccc; */
     border-right-width: 0px;
     border-left-width: 0px;
     position: relative;
 }
 
 #subbottom {
-    border-style: dashed;
-    border-color:purple;
-    background-color: #cccccc;
+    /*  border-style: dashed; */
+    border-color: purple;
+    /* background-color: #cccccc; */
     border-right-width: 0px;
     border-left-width: 0px;
     float: inline-end;
 }
 
-#subleft {
-    background-color: #cccccc;
-    float: left;
-    width: 50%;
-}
 
-#subright {
-    background-color: #cccccc;
-    float: right;
-    width: 50%;
-}
+/* ***/
 
-p {
-    background-color: #b3b3b3;
-    border-style: dashed;
-    border-color: green;
-    border-right-width: 0px;
-    border-left-width: 0px;
-}
-
-h2 {
-    background-color: #b3b3b3;
-    border-style: dashed;
-    border-color: green;
-    border-right-width: 0px;
-    border-left-width: 0px;
-}
-
-#footer {
-    background-color: #cccccc;
-    clear: both;
+#navimg {
+    /* border-style: dashed; */
 }
